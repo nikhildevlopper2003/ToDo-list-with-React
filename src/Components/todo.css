@@ -1,0 +1,43 @@
+/* Apply styles to the TodoItem in Todos */
+.todo-item {
+    padding: 0rem 5px;
+  }
+  
+  /* Todo list item styling */
+  .todo li {
+    padding: 7px;
+    font-size: 25px;
+    flex: 1;
+    border-radius: 30px;
+    overflow-wrap: anywhere;
+  }
+  
+  /* Button styles for check and delete */
+  .check-btn, .delete-btn {
+    font-size: 19px;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+    border-radius: 5%;
+    margin: 0 3px;
+  }
+  
+  /* Style for completed task (crossed out) */
+  .completed {
+    transition: 0.2s;
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  /* Fall animation for removing a task */
+  .fall {
+    transition: 0.5s;
+    transform: translateY(45rem) rotateZ(45deg);
+    opacity: 0;
+  }
+  
+  /* Font Awesome icon styles (optional) */
+  .fa-trash, .fa-check {
+    pointer-events: none;
+  }
+  
